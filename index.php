@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Datq Hewan</title>
+  <title>Data Hewan</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,10 +22,10 @@
         <thead class="table-dark">
             <tr>
                 <th>id</th>
-                <th>nama_hewan</th>
-                <th>jenis_hewan</th>
-                <th>asal_hewan</th>
-                <th>jumlah_hewan</th>
+                <th>nama</th>
+                <th>jenis</th>
+                <th>asal</th>
+                <th>jumlah</th>
             </tr>
         </thead>
         <tbody>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Waktu pembuatan: 21 Agu 2025 pada 06.24
+-- Waktu pembuatan: 21 Agu 2025 pada 06.44
 -- Versi server: 5.7.34
 -- Versi PHP: 8.2.6
 
@@ -42,7 +42,9 @@ CREATE TABLE `suci` (
 INSERT INTO `suci` (`id`, `nama_hewan`, `jenis_hewan`, `asal_hewan`, `jumlah_hewan`) VALUES
 (321, 'sapi', 'mamalia', 'domestikasi', 8),
 (456, 'kucing', 'mamalia', 'timur tengah', 9),
-(879, 'ikan', 'vertebrata', 'cina', 6);
+(879, 'ikan', 'vertebrata', 'cina', 6),
+(678, 'ulat', 'Lepidoptera', 'asia Tenggara', 6),
+(892, 'ular', 'reptilia', 'inggris', 10);
 
 --
 -- Indexes for dumped tables
@@ -62,7 +64,7 @@ ALTER TABLE `suci`
 -- AUTO_INCREMENT untuk tabel `suci`
 --
 ALTER TABLE `suci`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=880;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=893;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
